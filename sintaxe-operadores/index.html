@@ -50,7 +50,7 @@
         var res = window.document.getElementById('res')
         var soma = n1 + n2
         res.innerHTML = `<p>A soma entre ${n1} e ${n2} é ${soma}.</p>
-            <p>${n1 != n2? `Os números ${n1} e ${n2} são diferentes.`: `Os números ${n1} e ${n2} são iguais.`}</p>
+            <p>${n1 !== n2? `Os números ${n1} e ${n2} são diferentes.`: `Os números ${n1} e ${n2} são iguais.`}</p>
             ${soma <= 10 ? 'Sua soma é menor que 10' : 'Sua soma é maior que 10'} e ${soma <= 20 ? 'menor que 20.' : 'maior que 20.'}`
        
     
